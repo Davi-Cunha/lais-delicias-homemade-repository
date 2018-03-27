@@ -1,43 +1,42 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-bt">
 <head>
     <meta charset="UTF-8">
     <title>Laís Lins - Delícias Homemade</title>
     <link type="text/css" rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
-          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <script src="https://use.fontawesome.com/08e121ba13.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"
+            integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ"
+            crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
 <body>
 <header>
-    <nav>
+    <nav class="top-menu">
         <div class="container">
             <div class="row">
-
-                <ul class="social">
-                    <li><a><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
-                    <li><a><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                    <li><a><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
-                </ul>
-
-            </div>
-            <div class="row">
                 <div class="col-md-4">
-                    <h1>Laís Lins</h1>
+                    <ul class="list-inline top-right-menu float-right">
+                        <li class="list-inline-item"><i class="fas fa-home"></i><a href="#">Home</a></li>
+                        <li class="list-inline-item"><i class="fas fa-info-circle"></i><a href="#">Galeria</a></li>
+                        <li class="list-inline-item"><i class="fas fa-phone"></i><a href="#">Encomendas</a></li>
+                    </ul>
                 </div>
-                <div class="col-md-8">
-                    <ul class="menu">
-                        <li><a>Home</a></li>
-                        <li><a>Contatos</a></li>
-
-
+                <div class="col-md-4">
+                    <h1>Laís Lins Delícias Homemade</h1>
+                </div>
+                <div class="col-md-4">
+                    <ul class="list-inline top-right-menu float-right">
+                        <li class="list-inline-item"><i class="fas fa-phone"></i><a href="#">Contato</a></li>
+                        <li class="list-inline-item"><i class="fas fa-info-circle"></i><a href="#">Sobre</a></li>
                     </ul>
                 </div>
             </div>
         </div>
     </nav>
-</header>
 
+
+</header>
 
 
 </body>
