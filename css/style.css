@@ -3,26 +3,41 @@
     padding: 0;
 }
 
-.top-menu {
-    padding: 15px 0px 0px 0px;
-    background-color: #ff7bac;
-    box-shadow: 0 0 20px #888888;
+html, body {
+    height: 100%;
+    width: 100%;
 }
 
-.top-menu h1 {
-    text-align: center;
-    font-size: 24px;
-    color: #fff;
+.title-menu {
+    background-color: #302e2b;
+    height: 750px;
 }
 
-.top-menu .top-right-menu li svg {
-    font-size: 24px;
-    color: #fff;
+.title-menu .title-img-logo img{
+    display: block;
+    margin: 0 auto;
 }
 
-.top-menu .top-right-menu li a{
-    font-size: 17px;
-    padding: 0 8px 0 8px;
+.title-menu .title-menu-left {
+    transform: rotate(12deg);
+}
+
+.title-menu .title-menu-right {
+    transform: rotate(-12deg);
+}
+
+.title-menu ul {
+    margin-top: -25px;
+}
+
+.title-menu ul li {
+    padding: 0 10px 0 10px;
+}
+
+.title-menu ul li a {
+    font-family: "Dancing Script", serif;
+    font-size: 40px;
+    color: #ff7aac;
     text-decoration: none;
-    color: #fff;
 }
+

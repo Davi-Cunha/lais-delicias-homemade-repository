@@ -9,31 +9,33 @@
             crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
           integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
 </head>
 <body>
-<header>
-    <nav class="top-menu">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <ul class="list-inline top-right-menu float-right">
-                        <li class="list-inline-item"><i class="fas fa-home"></i><a href="#">Home</a></li>
-                        <li class="list-inline-item"><i class="fas fa-info-circle"></i><a href="#">Galeria</a></li>
-                        <li class="list-inline-item"><i class="fas fa-phone"></i><a href="#">Encomendas</a></li>
-                    </ul>
-                </div>
-                <div class="col-md-4">
-                    <h1>Laís Lins Delícias Homemade</h1>
-                </div>
-                <div class="col-md-4">
-                    <ul class="list-inline top-right-menu float-right">
-                        <li class="list-inline-item"><i class="fas fa-phone"></i><a href="#">Contato</a></li>
-                        <li class="list-inline-item"><i class="fas fa-info-circle"></i><a href="#">Sobre</a></li>
-                    </ul>
+<header class="title-menu">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="title-img-logo">
+                    <img src="img/logo.png">
                 </div>
             </div>
+            <div class="col-md-6">
+                <ul class="list-inline float-right title-menu-left">
+                    <li class="list-inline-item"><a href="#">Home</a></li>
+                    <li class="list-inline-item"><a href="#">Galeria</a></li>
+                    <li class="list-inline-item"><a href="#">Encomendas</a></li>
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <ul class="list-inline float-left title-menu-right">
+                    <li class="list-inline-item"><a href="#">Contato</a></li>
+                    <li class="list-inline-item"><a href="#">Contato</a></li>
+                    <li class="list-inline-item"><a href="#">Sobre</a></li>
+                </ul>
+            </div>
         </div>
-    </nav>
+    </div>
 
 
 </header>
