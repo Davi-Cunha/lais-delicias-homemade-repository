@@ -3,7 +3,6 @@ function onScrollTopDisplayNone() {
     var cart = document.querySelector(".cart");
     var ulMenuLeft = document.querySelector(".title-menu-left");
     var ulMenuRight = document.querySelector(".title-menu-right");
-    var galeria = document.querySelector(".galeria-section");
     console.log("y = " + y);
     if (y > 800) {
         cart.style.display = "none";
@@ -14,6 +13,6 @@ function onScrollTopDisplayNone() {
         ulMenuLeft.style.display = "block";
         ulMenuRight.style.display = "block";
     }
-
-
 }
+
+$('.nav').localScroll();

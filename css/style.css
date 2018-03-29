@@ -12,7 +12,7 @@ html, body {
 
 .title-menu {
     height: 800px;
-    background: url("../img/logo-bg.png") no-repeat fixed center;
+    background: url("../img/logo.png") no-repeat fixed center;
     background-size: cover;
     z-index: 0;
 }
@@ -84,10 +84,6 @@ html, body {
     height: 800px;
 }
 
-.galeria-section img {
-    position: absolute;
-    margin-top: -34px;
-}
 
 .galeria-section header h1 {
     margin-top: 20px;
@@ -112,5 +108,20 @@ html, body {
     height: 800px;
 }
 
+.toTopButton {
+    margin-top: -53px;
+    font-size: 35px;
+    color: #fff;
+}
 
+.toTopButton:hover {
+    color: #fff;
+}
 
+.footer-section {
+    background-color: #302e2b;
+}
+
+.footer-section h1 {
+    color: #fff;
+}
