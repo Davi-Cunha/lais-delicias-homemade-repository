@@ -103,10 +103,30 @@ html, body {
     height: 800px;
 }
 
+.encomenda-section h1 {
+    margin-top: 20px;
+    font-family: "Dancing Script", serif;
+    color: #302e2b;
+    font-size: 60px;
+    text-shadow: 0 2px 1px #888888;
+}
+
+/*CONTATO SECTION*/
+
 .contato-section {
     background-color: #ff7aac;
     height: 800px;
 }
+
+.contato-section h1 {
+    margin-top: 20px;
+    font-family: "Dancing Script", serif;
+    color: #76cdd0;
+    font-size: 60px;
+    text-shadow: 0 2px 1px #888888;
+}
+
+/*TOTOPBUTTON*/
 
 .toTopButton {
     margin-top: -53px;
@@ -118,10 +138,38 @@ html, body {
     color: #fff;
 }
 
+/*FOOTER*/
+
 .footer-section {
     background-color: #302e2b;
 }
 
-.footer-section h1 {
+.footer-section .social-media-list li{
+    list-style: none;
+}
+
+.footer-section .social-media-list li a{
+    color: #fff;
+    transition: .4s all;
+}
+
+.footer-section .social-media-list li a:hover {
+    text-decoration: none;
+}
+
+.footer-section p {
     color: #fff;
 }
+
+.footer-section p a {
+    color: #fff;
+    text-decoration: none;
+    transition: .4s all;
+}
+
+.footer-section p a:hover {
+    color: #76cdd0;
+    text-decoration: none;
+}
+
+
